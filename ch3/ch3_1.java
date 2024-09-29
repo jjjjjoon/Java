@@ -1,4 +1,3 @@
-package ch3;
 import java.util.Scanner;
 
 public class ch3_1 {
