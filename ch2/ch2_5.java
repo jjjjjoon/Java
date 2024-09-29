@@ -1,4 +1,5 @@
 package ch2;
+
 import java.util.Scanner;
 import java.time.LocalTime;
 
