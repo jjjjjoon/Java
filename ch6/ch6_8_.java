@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.HashMap;
 
 
-public class ch6_8 {
+public class ch6_8_ {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double a = 0;
