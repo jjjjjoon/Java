@@ -10,19 +10,17 @@ public class ch7_2 {
         int row = 0;
         int col = 0;
 
-        // 입력받으면서 최대값을 찾고 그 위치를 기록
         for (int i = 0; i < 9; i++) {
             for (int j = 0; j < 9; j++) {
                 matrix[i][j] = scanner.nextInt();
                 if (matrix[i][j] > max) {
                     max = matrix[i][j];
-                    row = i + 1;  // 1-based index
-                    col = j + 1;  // 1-based index
+                    row = i + 1;
+                    col = j + 1;
                 }
             }
         }
 
-        // 최대값과 위치 출력
         System.out.println(max);
         System.out.println(row + " " + col);
     }
